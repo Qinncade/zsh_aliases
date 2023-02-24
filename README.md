@@ -1,7 +1,7 @@
 # zsh_aliases
 ## Create An Alias In zsh Easy Guide
 
-Aliases are a perfect choise to speed up your workflow by shorten commands to a few letters. <br>
+Aliases are a perfect choice to speed up your workflow by shorten commands to a few letters. <br>
 In the following you'll find an easy and beginner friendly way to create your own Aliases in zsh.
 
 ## Show All Aliases
@@ -15,7 +15,7 @@ unalias <alias_name>
 ```
 
 ## Save Alias to .zshrc
-To keep your aliases even after closing the terminal append them to .zshrc in you Home Directory and reopen a terminal to load the changes.
+To keep your aliases even after closing the terminal append them to .zshrc in your Home Directory and reopen a terminal to load the changes.
 ```bash
 sudo vim ~/.zshrc
 ```
