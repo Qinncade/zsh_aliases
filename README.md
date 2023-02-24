@@ -50,16 +50,12 @@ Just type
 
 ## Open Server Port 80
 ```bash
-alias server="echo python3 -c 'import pty;pty.spawn("/bin/bash")' && 
-echo python -c 'import pty;pty.spawn("/bin/bash")' && 
-echo script -qc /bin/bash /dev/null;
+alias server="echo script -qc /bin/bash /dev/null;
 sudo python3 -m http.server 80"
 ```
 
 ## Open Server Port <PORT_NUMBER>
 ```bash
-alias server="echo python3 -c 'import pty;pty.spawn("/bin/bash")' && 
-echo python -c 'import pty;pty.spawn("/bin/bash")' && 
-echo script -qc /bin/bash /dev/null;
+alias server="echo script -qc /bin/bash /dev/null;
 sudo python3 -m http.server $1"
 ```
